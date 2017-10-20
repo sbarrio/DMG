@@ -1,5 +1,5 @@
 /*
-	ld.c
+	dmg.c
 	A small SHUMP for the Game Boy <3
 	sbarrio 2017
 */

@@ -1,6 +1,6 @@
 CC	= ../../../bin/lcc -Wa-l -Wl-m -Wl-j
 
-BINS	= ld.gb
+BINS	= dmg.gb
 
 # sound.gb: Cant do bitfields
 OTHER = sound.gb \
