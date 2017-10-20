@@ -1,9 +1,9 @@
                               1 ;--------------------------------------------------------
                               2 ; File Created by SDCC : FreeWare ANSI-C Compiler
-                              3 ; Version 2.3.1 Fri Oct 20 23:25:14 2017
+                              3 ; Version 2.3.1 Fri Oct 20 23:35:29 2017
                               4 
                               5 ;--------------------------------------------------------
-                              6 	.module lcc184990
+                              6 	.module lcc185970
                               7 	
                               8 ;--------------------------------------------------------
                               9 ; Public variables in this module
@@ -4664,7 +4664,7 @@
                            4560 ;	genAssign
    0DF7 01 24 FF           4561 	ld	bc,#0xFF24
                            4562 ;	genAssign (pointer)
-   0DFA 3E 10              4563 	ld	a,#0x10
+   0DFA 3E 35              4563 	ld	a,#0x35
    0DFC 02                 4564 	ld	(bc),a
                            4565 ;	ld.c 544
                            4566 ;	genAssign
@@ -4727,7 +4727,7 @@
                            4623 ;	genAssign
    0E28 01 24 FF           4624 	ld	bc,#0xFF24
                            4625 ;	genAssign (pointer)
-   0E2B 3E 1A              4626 	ld	a,#0x1A
+   0E2B 3E 40              4626 	ld	a,#0x40
    0E2D 02                 4627 	ld	(bc),a
                            4628 ;	ld.c 557
                            4629 ;	genAssign
@@ -4790,7 +4790,7 @@
                            4686 ;	genAssign
    0E59 01 24 FF           4687 	ld	bc,#0xFF24
                            4688 ;	genAssign (pointer)
-   0E5C 3E 1A              4689 	ld	a,#0x1A
+   0E5C 3E 40              4689 	ld	a,#0x40
    0E5E 02                 4690 	ld	(bc),a
                            4691 ;	ld.c 570
                            4692 ;	genAssign
